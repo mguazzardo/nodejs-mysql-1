@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `quote`
 --
-
+USE quote;
 CREATE TABLE `quote` (
   `id` int(11) NOT NULL,
   `quote` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
